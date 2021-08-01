@@ -25,7 +25,7 @@ Amplify.configure({
       {
         name: "notes",
         endpoint: config.apiGateway.URL,
-        region: config.cognito.apiGateway.REGION,
+        region: config.apiGateway.REGION,
       },
     ],
   },
